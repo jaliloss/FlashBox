@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="utf-8">
+    <title>FlashBox</title>
+    <!-- Stylesheets -->
+    <!-- bootstrap v3.3.6 css -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- font-awesome css -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- flaticon css -->
+    <link href="css/flaticon.css" rel="stylesheet">
+    <!-- factoryplus-icons css -->
+    <link href="css/factoryplus-icons.css" rel="stylesheet">
+    <!-- animate css -->
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- owl.carousel css -->
+    <link href="css/owl.css" rel="stylesheet">
+    <!-- fancybox css -->
+    <link href="css/jquery.fancybox.css" rel="stylesheet">
+    <link href="css/hover.css" rel="stylesheet">
+    <link href="css/frontend.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- switcher css -->
+    <link href="css/switcher.css" rel="stylesheet">
+    <link rel='stylesheet' id='factoryhub-color-switcher-css' href='css/switcher/default.css' />
+    <!-- revolution slider css -->
+    <link rel="stylesheet" type="text/css" href="css/revolution/settings.css">
+    <link rel="stylesheet" type="text/css" href="css/revolution/layers.css">
+    <link rel="stylesheet" type="text/css" href="css/revolution/navigation.css">
+
+    <!--Favicon-->
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }   
+    </style>
+</head>
+
+<body style="background:#3a3a3b18;" class="home header-transparent  header-sticky header-v1 hide-topbar-mobile">
+    <div id="page">
+
+        <!-- Preloader-->
+        <div class="preloader"></div>
+
+        <!-- topbar -->
+        <div id="fh-header-minimized" class="fh-header-minimized fh-header-v1"></div>
+        <div id="topbar" class="topbar">
+            <div class="container">
+
+                <div class="topbar-left topbar-widgets text-left">
+                    <div id="cargo-office-location-widget-2" class="widget cargo-office-location-widget">
+                        <div class="office-location clearfix">
+                            <div class="office-switcher"><i class="flaticon-globe "></i>
+                                <a class="current-office" href="#">Oriental</a>
+                                <ul>
+                                    <li>Oujda</li>
+                                    <li>Ahfir</li>
+                                    <li>Saidia</li>
+                                    <li>Berkan</li>
+                                    <li>Nador</li>
+                                    <li>Taourirt</li>
+                                    <li>Twisit</li>
+                                </ul>
+                            </div>
+                            <ul class="topbar-office active">
+                                <li><i class="flaticon-telephone" aria-hidden="true"></i>Tel +212 6 78 09 51 43</li>
+                                <li><i class="flaticon-web" aria-hidden="true"></i>contact.flashbox.ma</li>
+                                <li><i class="flaticon-pin" aria-hidden="true"></i>Flashbox, BD Med 5</li>
+                            </ul>
+                            <ul class="topbar-office">
+                                <li><i class="flaticon-telephone" aria-hidden="true"></i>Tel +212 6 78 09 51 43</li>
+                                <li><i class="flaticon-web" aria-hidden="true"></i>contact.flashbox.ma</li>
+                                <li><i class="flaticon-pin" aria-hidden="true"></i>Flashbox, BD Med 5</li>
+                            </ul>
+                            <ul class="topbar-office">
+                                <li><i class="flaticon-telephone" aria-hidden="true"></i>Tel +212 6 78 09 51 43</li>
+                                <li><i class="flaticon-web" aria-hidden="true"></i>contact.flashbox.ma</li>
+                                <li><i class="flaticon-pin" aria-hidden="true"></i>Flashbox, BD Med 5</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="topbar-right topbar-widgets text-right">
+                    <div class="widget cargohub-social-links-widget">
+                        <div class="list-social style-1">
+                            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="#" data-toggle="modal" data-target="#insta"><i class="fab fa-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-skype"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="widget cargo-search-widget">
+                        <div class="topbar-search topbar-search-1">
+                            <a href="#" class="toggle-search" id="toggle-search"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            <form class="search-form" action="#">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                <input type="search" class="search-field" placeholder="Search..." value="">
+                                <input type="submit" class="search-submit" value="Search">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="modal" id="insta" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Scannez-moi</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/insta.jpeg" alt="">
+                </div>
+                <div class="modal-footer">
+                 
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- topbar end -->
+
+        <!-- masthead -->
+        <header id="masthead" class="site-header clearfix">
+
+            <div class="header-main clearfix">
+                <div class="container mobile_relative">
+                    <div class="row">
+                        <div class="site-logo col-md-3 col-sm-6 col-xs-6">
+                            <a href="index.html" class="logo">
+                                <img src="images/logod.png"   style="width: 160px;
+                                height:60px"   alt="flashbox" class="logo-light show-logo">
+                                <img src="images/logo.png"    style="width: 160px;
+                                height:60px" alt="flashbox" class="logo-dark hide-logo">
+                            </a>
+                            <h1 class="site-title"><a href="#">FlashBox</a></h1>
+                            <h2 class="site-description">Livraison à domicile</h2>
+                        </div>
+                        <div class="site-menu col-md-9 col-sm-6 col-xs-6">
+                            <nav id="site-navigation" style="width: 108%;" class="main-nav primary-nav nav">
+                                <ul class="menu">
+                                    <li><a href="index.html" >Accueil</a>
+                                       
+                                    </li>
+                                    <li><a href="#qsn" >Qui Sommes Nous</a>
+                                       
+                                    </li>
+                                    <li><a href="#services" >Notre service</a>
+                                      
+                                    </li>
+                                    <li><a href="#zone" >Zone de livraison & Tarifs</a>
+                                        
+                                    </li>
+                                    <li><a href="gallery.html" >Gallery</a>
+                                        
+                                    </li>
+                   
+                                    <li><a href="contact.html">Contact</a></li>
+                                  
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <a href="#" class="navbar-toggle">
+                        <span class="navbar-icon">
+							<span class="navbars-line"></span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+        </header>
+
+        <!-- masthead end -->
+
+        <!--Page Header-->
+        <div style="background:#3a3a3b18;" class="page-header title-area">
+            <div class="header-title">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <h1 class="page-title">Contact</h1> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="breadcrumb-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-12 col-xs-12 site-breadcrumb">
+                            <nav class="breadcrumb">
+                                <a class="home" href="#"><span>Home</span></a>
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                <span>Contact</span>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Page Header end-->
+
+        <!--contact pagesec-->
+     
+        <!--contact end-->
+
+        <!--contact form -->
+        <section>
+            <div class="container-fluid">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.7539870980972!2d-1.9150987847681542!3d34.68615798043812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7864a0be9bd097%3A0x898814007022e7f0!2sP1%2C%20Oujda!5e0!3m2!1sen!2sma!4v1610469164124!5m2!1sen!2sma" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+            </div>
+        </section>
+        <section class="contactpagform graybg secpadd">
+            <div class="container">
+                <div class="fh-section-title clearfix f25 text-center version-dark paddbtm40">
+                    <h2>Laissez un message</h2>
+                </div>
+                <p class="paddbtm40 text-center">Si vous avez des questions sur les services que nous fournissons, utilisez simplement le formulaire ci-dessous. Nous essayons de répondre à tous
+                    requêtes et commentaires dans les 24 heures.</p>
+                <form method="post" action="http://st.ourhtmldemo.com/template/cargohub/ajax/mail.php" id="contact-form" novalidate="novalidate">
+                    <div class="fh-form fh-form-3">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <p class="field">
+                                    <input  name="name" placeholder="Nom*" type="text">
+                                </p>
+                                <p class="field">
+                                    <input name="email" placeholder="Email*" type="email">
+                                </p>
+                                <p class="field">
+                                    <input name="phone" placeholder="Tel" type="text">
+                                </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <p class="field single-field">
+                                    <textarea  name="message" cols="40" rows="10" placeholder="Votre Message..."></textarea>
+                                </p>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <p class="field submit">
+                                    <button  class="fh-btn" type="submit">Submit</button>
+								</p>
+                            </div>
+							<div id="loading" style="display:none"><img src="images/ajax-loader.png" alt="loading" /></div>
+							<div class="contact-form-message"></div>							
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!--contact form  end -->
+
+        <!--google map-->
+      
+        <!--google map end-->
+
+      <!--footer sec-->
+      <div class="footer-widgets widgets-area">
+        <div class="contact-widget">
+            <div class="container">
+                <div class="row">
+                    <div class="contact col-md-3 col-xs-12 col-sm-12">
+                        <a href="#" class="footer-logo"><img
+                            style="width: 160px;
+                            height:60px;margin-top: -15px;"  src="images/logo-light.png"
+                                alt="Footer Logo"></a>                        </div>
+                    <div class="contact col-md-3 col-xs-12 col-sm-12"><i class="flaticon-signs"></i>
+                        <p>Addresse : </p>
+                        <h4>BD Med 5</h4></div>
+                    <div class="contact col-md-3 col-xs-12 col-sm-12"><i class="flaticon-phone-call "></i>
+                        <p>Tel :</p>
+                        <h4>+212 6 78 09 51 43</h4></div>
+                    <div class="contact col-md-3 col-xs-12 col-sm-12"><i class="flaticon-clock-1"></i>
+                        <p>Horaires d'ouvertures :</p>
+                        <h4>Lundi – Dimanche: <br> 8:00 – 20:00</h4></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-sidebars">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-sidebar footer-1 col-xs-12 col-sm-6 col-md-3">
+                        <div class="widget widget_text">
+                            <h4 class="widget-title" style="font-size: larger;
+                            text-align: center;">À Propos Du FlashBox</h4>
+                            <div class="textwidget" style="text-align: center;">
+                                <p>Flashbox est une société
+                                    Spécialiste du service de
+                                    courses rapide( coursier et
+                                    livraison à domicile) aux
+                                    particuliers et aux
+                                    entreprises.
+                                    Flashbox se charge de toutes
+                                    vos tâches journalières. Il
+                                    fait vos courses,
+                                    réceptionne vos commandes et
+                                    peut même aller payer vos
+                                    factures,
+                                    à votre place, vous
+                                    permettant ainsi un gain de
+                                    temps considérable.</p>
+                            </div>
+                        </div>
+                        <div class="widget cargohub-social-links-widget">
+                            <div class="list-social style-1">
+                                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="#"  data-toggle="modal" data-target="#insta"><i class="fab fa-instagram"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-sidebar footer-2 col-xs-12 col-sm-6 col-md-3">
+                        <div class="widget widget_nav_menu">
+                            <h4 class="widget-title">Nos Services</h4>
+                            <div class="menu-service-menu-container">
+                                <ul class="menu">
+                                    <li>E-commerce</li>
+                                    <li>Nourriture</li>
+                                    <li>Particulier</li>
+                                    <li>Pharmacie</li>
+                                    <li>Société</li>
+                                    <li>Shopping</li>
+                                
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-sidebar footer-3 col-xs-12 col-sm-6 col-md-3">
+                        <div class="widget latest-project-widget">
+                            <h4 class="widget-title">Photo gallery</h4>
+                            <div class="latest-project-list clearfix">
+                                <div class="latest-project clearfix">
+                                    <div class="fp-widget-thumb">
+                                        <a class="widget-thumb" href="#">
+                                            <i class="fa fa-link" aria-hidden="true"></i>
+                                            <img src="images/projects/fg1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="latest-project clearfix">
+                                    <div class="fp-widget-thumb">
+                                        <a class="widget-thumb" href="#">
+                                            <i class="fa fa-link" aria-hidden="true"></i>
+                                            <img src="images/projects/fg2.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="latest-project clearfix">
+                                    <div class="fp-widget-thumb">
+                                        <a class="widget-thumb" href="#">
+                                            <i class="fa fa-link" aria-hidden="true"></i>
+                                            <img src="images/projects/fg3.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="latest-project clearfix">
+                                    <div class="fp-widget-thumb">
+                                        <a class="widget-thumb" href="#">
+                                            <i class="fa fa-link" aria-hidden="true"></i>
+                                            <img src="images/projects/fg4.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="latest-project clearfix">
+                                    <div class="fp-widget-thumb">
+                                        <a class="widget-thumb" href="#">
+                                            <i class="fa fa-link" aria-hidden="true"></i>
+                                            <img src="images/projects/fg5.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="latest-project clearfix">
+                                    <div class="fp-widget-thumb">
+                                        <a class="widget-thumb" href="#">
+                                            <i class="fa fa-link" aria-hidden="true"></i>
+                                            <img src="images/projects/fg6.jpg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-sidebar footer-4 col-xs-12 col-sm-6 col-md-3">
+                        <div class="widget widget_mc4wp_form_widget">
+                            <h4 class="widget-title">Notre Newsletter</h4>
+                            <form>
+                                <div class="footform">
+                                    <div class="fh-form-field">
+                                        <p>
+                                            Inscrivez-vous dès
+                                            aujourd'hui pour des
+                                            conseils et des
+                                            dernières nouvelles
+                                            et des offres
+                                            spéciales exclusives
+                                        </p>
+                                        <div class="subscribe">
+                                            <input name="EMAIL"
+                                                placeholder="Entrer votre Email"
+                                                required=""
+                                                type="email">
+                                            <input
+                                                value="S'inscrire"
+                                                type="submit">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                           
+                        </div>
+                        <div class="widget widget_text">
+                            <div class="textwidget">
+                                <p>Nous ne faisons pas de spam et votre courrier est très confidentiel.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer sec end-->
+
+    <!--copyright sec-->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-copyright col-md-6 col-sm-12 col-sx-12">
+                    <div class="site-info">Copyright @ 2021 <a href="#">Falshbox</a>, All Right Reserved </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <!--End pagewrapper-->
+
+    <!--primary-mobile-nav-->
+    <div class="primary-mobile-nav header-v1"
+    id="primary-mobile-nav" role="navigation">
+    <a href="#" class="close-canvas-mobile-panel">×</a>
+    <ul class="menu">
+        <li class="active"><a href="index.html">Accueil</a>
+        </li>
+        <li class=""><a href="index.html">Qui Sommes Nous</a>
+        </li>
+        <li class=""><a href="index.html">Notre service</a>
+
+        </li>
+        <li class=""><a href="index.html">Zone de livraison &
+                Tarifs</a>
+
+        </li>
+        
+
+        <li class=""><a href="#">Contact</a></li>
+    </ul>
+
+</div>
+    <div id="off-canvas-layer" class="off-canvas-layer"></div>
+    <!--primary-mobile-nav end-->
+
+    <!--Scroll to top-->
+    <a id="scroll-top" class="backtotop" href="#page-top"><i class="fa fa-angle-up"></i></a>    
+    <!-- jquery Liabrary -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- bootstrap v3.3.6 js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- fancybox js -->
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.fancybox-media.js"></script>
+    <script src="../../../unpkg.com/isotope-layout%403.0.6/dist/isotope.pkgd.min.js"></script>
+    <!-- owl.carousel js -->
+    <script src="js/owl.js"></script>
+    <!-- counter js -->
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <!-- validate js -->
+    <script src="js/validate.js"></script>
+    <!-- switcher js -->
+    <script src="js/switcher.js"></script>
+
+    <!-- google map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A"></script>
+    <script src="js/gmap.js"></script>
+    <script src="js/map-helper.js"></script>
+
+    <!-- REVOLUTION JS FILES -->
+    <script type="text/javascript" src="js/revolution/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="js/revolution/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.video.min.js"></script>
+
+    <!-- script JS  -->
+    <script src="js/scripts.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+
+</html>
